@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
+    <title>A-lag</title>
+  </head>
+  <body>
+    <!--Header och menyerna-->
+    <div class="header desktop">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="sponsorer sponsorer-left col-5" style="height: 40px">
+            <a
+              href="https://csupply.se/?gclid=CjwKCAjwsfuYBhAZEiwA5a6CDPZEjaivwQPA2glRb_hCRoguxhkE2p4s8bTnDA35h1shG_nTcY05phoCioEQAvD_BwE"
+              >C-SUPPLY</a
+            >
+            <a
+              href="https://fiske.zaramis.se/2021/06/03/svenskdominerade-skagen-torland-fiske-och-tor-on-fiske/"
+              >TOR-ÖN FISKE</a
+            >
+          </div>
+          <div class="logo col-2">
+            <a href="mainpage.HTML"
+              ><img
+                id="logo"
+                height="160px"
+                src="img/RealHPlogga.gif"
+                alt="Real HP logo"
+                class="mx-auto d-block"
+            /></a>
+          </div>
+          <div class="sponsorer sponsorer-right col-5" style="height: 40px">
+            <a href="https://www.joma-sport.com/en/home">JOMA</a>
+            <a href="https://www.gifico.se/">GIFICO</a>
+            <a href="https://www.korpen.se/">KORPEN</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="menu menu-left col-5" style="top: -100px">
+            <a href="shop.HTML">SHOP</a>
+            <a href="a-lag.HTML">A-LAG</a>
+          </div>
+          <div class="col-2"></div>
+          <div class="menu menu-right col-5" style="top: -100px">
+            <a href="spelschema.HTML">SPELSCHEMA</a>
+            <a href="tabell.HTML">TABELL</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header mobil">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="logo col-2">
+            <a href="mainpage.HTML"
+              ><img
+                id="logo"
+                height="160px"
+                src="img/RealHPlogga.gif"
+                alt="Real HP logo"
+                class="mx-auto d-block"
+            /></a>
+          </div>
+          <div class="sponsormobil col-7"><p id="headertext">NORDSØENS FINEST
+          </p></div>
+          <div class="dropdown col-3">
+            <button class="dropbtn">Meny</button>
+            <div class="dropdown-content">
+              <a href="Shop.HTML">Shop</a>
+              <a href="Spelschema.HTML">Spelschema</a>
+              <a href="A-lag.HTML">A-laget</a>
+              <a href="Tabell.HTML">Tabell</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--maincontent-->
+    <br />
+    <div class="container-fluid">
+      <div class="darkmodebtn">
+      <label class="switch">
+      <input onclick="myFunction()" type="checkbox">
+      <span class="slider round"></span>
+    </div>
+  </div>
+  <br>
+    <div class="container">
+      <img
+        src="img/lagfoto-3.png"
+        alt="lagfoto"
+        class="mx-auto d-block"
+        width="100%"
+        id="lagfotoalag"
+      />
+      <!--Här visas våra spelare-->
+      <br />
+      <div class="lagdel">
+        <h2>Målvakter</h2>
+        <hr />
+       <div class="player">
+        <img
+          src="img/rubenolssonfiske.png"
+          alt="Ruben-Olsson"
+          width="200px"
+        />
+        <div class="block-name">
+          <h5>Ruben Olsson</h5>
+        </div>
+       </div>
+      </div>
+      <br />
+
+      <div class="lagdel">
+        <h2>Försvarare</h2>
+        <hr />
+        <div class="player">
+          <img
+            src="img/carlbergman.png"
+            alt="Carl-Bergman"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Carl Bergman</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/noasamuelsson.png"
+            alt="Noa-Samuelsson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Noa Samuelsson</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/ludwigolsson.png"
+            alt="Ludwig-Olsson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Ludwig Olsson</h5>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="lagdel">
+        <h2>Mittfältare</h2>
+        <hr />
+        <div class="player">
+          <img
+            src="img/samuellindgren.png"
+            alt="Samuel-Lindgren"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Samuel Lindgren</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/oscarberndtsson.png"
+            alt="Oscar-Berndtsson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Oscar Berndtsson</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/davidborjesson.png"
+            alt="David-Börjesson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>David Börjesson</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/arvidnilsson.png"
+            alt="Arvid-Nilsson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Arvid Nilsson</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/timoteusmagnusson.png"
+            alt="Timoteus-Magnusson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Timoteus Magnusson</h5>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="lagdel">
+        <h2>Anfallare</h2>
+        <hr />
+        <div class="player">
+          <img
+            src="img/lukasglittvik.PNG"
+            alt="Lukas-Glittvik"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Lukas Glittvik</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/gustavahlstrom.png"
+            alt="Gustav-Ahlström"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>Gustav Ahlström</h5>
+          </div>
+        </div>
+        <div class="player">
+          <img
+            src="img/johnclaesson.png"
+            alt="John-Claesson"
+            width="200px"
+          />
+          <div class="block-name">
+            <h5>John Claesson</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br></br>
+    <!--här börjar footern-->
+    <div class="footer footerdesktop">
+      <div class="container-fluid">
+        <br>
+        <div class="row" id="foten">
+          <div class="kontakt col-md-4">
+            <h5>KONTAKT</h5>
+            <p>E-post: carlb.98@hotmail.se</p>
+            <p>Telefon: +46708779576</p>
+            <hr class="hrfooter col-md">
+            <h5>SITE MAP</h5>
+            <p>Klicka <a href="sitemap.HTML">här</a> för att komma till sitemap!</p>
+          </div>
+          <hr class="hrfooter col-md">
+          <div class="social-media col-md-4">
+            <h5>SOCIALA MEDIER</h5>
+            <div id="socialmedialogos">
+            <a href="https://www.instagram.com/realhpfootball/"
+              ><img
+                src="img/new-instagram-logo-glyph.svg"
+                alt="instagram"
+                style="height: 50px"
+            /></a>
+            <a href="https://www.facebook.com/realhpfootball"
+              ><img src="img/facebook-logo-svgrepo-com.svg" alt="facebook" style="height: 40px"
+            /></a>
+            </div>
+            <br>
+            <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                        fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-share-button" data-href="http://127.0.0.1:5501/mainpage.HTML" data-layout="button_count"></div>
+          </div>
+          <hr class="hrfooter col-md">
+          <div class="formula col-md-4">
+            <h5>Vill du provträna med oss?</h5>
+            <button class="showformbtn" onclick="showDiv();">Visa Formulär</button>
+            <br><br>
+            <div id="formula" style="display: none;">
+            <form name="spelaform" action="" method="post" onsubmit="return validateform()" >
+              <label for="namn">Namn:</label><br />
+              <input type="text" class="input_long" id="namn" name="namn" value onkeydown="returntabOnEnter(this,event)"/><br />
+              <label for="mobil">Mobilnummer:</label><br />
+              <input type="text" class="input_long" id="mobil" name="mobil" onkeypress="return onlyNumberKey(event)" onkeydown="return tabOnEnter(this, event)"/><br />
+              <label for="positionform">Position:</label><br>
+              <select class="select_long" name="positionform" id="positionform">
+                <option value="position1">Position</option>
+                <option value="keeper">Målvakt</option>
+                <option value="defender">Försvarare</option>
+                <option value="midfielder">Mittfältare</option>
+                <option value="forward">Anfallare</option>
+              </select><br>
+              <label for="ansokan"
+                >Meriter och varför du vill spela med oss:</label
+              ><br />
+              <textarea name="ansokan" id="ansokan" class="input_long" value onkeydown="returntabOnEnter(this,event)" rows="5" cols="21"></textarea><br />
+              <input type="submit" value="submit" />
+            </form>
+          </div>
+            <br>
+          </div>
+          <script src="js/form.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
