@@ -284,6 +284,21 @@
     text-decoration: none;
     color: white;
    }
+   @media screen and (min-width: 10px) {
+    .innehall {
+        height: 1100px;
+    }
+   }
+   @media screen and (min-width: 769px) {
+    .innehall {
+        height: 750px;
+    }
+   }
+   @media screen and (min-width: 1200px) {
+    .innehall {
+        height: 800px;
+    }
+   }
    /*Här slutar css för shop*/
 
    /*Här börjar css för tabell och spelschema*/
@@ -445,3 +460,4 @@
     border-radius: 50%;
   }
 /*Här slutar css för dark/lightmode*/
+
