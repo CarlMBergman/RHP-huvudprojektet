@@ -93,12 +93,12 @@
     <br />
     <div class="container-fluid">
       <div class="darkmodebtn">
-      <label class="switch">
-      <input onclick="myFunction()" type="checkbox">
-      <span class="slider round"></span>
+        <label class="switch">
+        <input onclick="myFunction()" type="checkbox">
+        <span class="slider round"></span>
+      </div>
     </div>
-  </div>
-  <br>
+    <br>
     <div class="container">
       <img
         src="img/lagfoto-3.png"
@@ -112,16 +112,16 @@
       <div class="lagdel">
         <h2>Målvakter</h2>
         <hr />
-       <div class="player">
-        <img
-          src="img/rubenolssonfiske.png"
-          alt="Ruben-Olsson"
-          width="200px"
-        />
-        <div class="block-name">
-          <h5>Ruben Olsson</h5>
+        <div class="player">
+          <img
+           src="img/rubenolssonfiske.png"
+           alt="Ruben-Olsson"
+           width="200px"
+          />
+          <div class="block-name">
+            <h5>Ruben Olsson</h5>
+          </div>
         </div>
-       </div>
       </div>
       <br />
 
@@ -268,15 +268,15 @@
           <div class="social-media col-md-4">
             <h5>SOCIALA MEDIER</h5>
             <div id="socialmedialogos">
-            <a href="https://www.instagram.com/realhpfootball/"
-              ><img
-                src="img/new-instagram-logo-glyph.svg"
-                alt="instagram"
-                style="height: 50px"
-            /></a>
-            <a href="https://www.facebook.com/realhpfootball"
-              ><img src="img/facebook-logo-svgrepo-com.svg" alt="facebook" style="height: 40px"
-            /></a>
+              <a href="https://www.instagram.com/realhpfootball/"
+                ><img
+                  src="img/new-instagram-logo-glyph.svg"
+                  alt="instagram"
+                  style="height: 50px"
+              /></a>
+              <a href="https://www.facebook.com/realhpfootball"
+                ><img src="img/facebook-logo-svgrepo-com.svg" alt="facebook" style="height: 40px"
+              /></a>
             </div>
             <br>
             <div id="fb-root"></div>
@@ -295,26 +295,26 @@
             <button class="showformbtn" onclick="showDiv();">Visa Formulär</button>
             <br><br>
             <div id="formula" style="display: none;">
-            <form name="spelaform" action="" method="post" onsubmit="return validateform()" >
-              <label for="namn">Namn:</label><br />
-              <input type="text" class="input_long" id="namn" name="namn" value onkeydown="returntabOnEnter(this,event)"/><br />
-              <label for="mobil">Mobilnummer:</label><br />
-              <input type="text" class="input_long" id="mobil" name="mobil" onkeypress="return onlyNumberKey(event)" onkeydown="return tabOnEnter(this, event)"/><br />
-              <label for="positionform">Position:</label><br>
-              <select class="select_long" name="positionform" id="positionform">
-                <option value="position1">Position</option>
-                <option value="keeper">Målvakt</option>
-                <option value="defender">Försvarare</option>
-                <option value="midfielder">Mittfältare</option>
-                <option value="forward">Anfallare</option>
-              </select><br>
-              <label for="ansokan"
-                >Meriter och varför du vill spela med oss:</label
-              ><br />
-              <textarea name="ansokan" id="ansokan" class="input_long" value onkeydown="returntabOnEnter(this,event)" rows="5" cols="21"></textarea><br />
-              <input type="submit" value="submit" />
-            </form>
-          </div>
+              <form name="spelaform" action="" method="post" onsubmit="return validateform()" >
+                <label for="namn">Namn:</label><br />
+                <input type="text" class="input_long" id="namn" name="namn" value onkeydown="returntabOnEnter(this,event)"/><br />
+                <label for="mobil">Mobilnummer:</label><br />
+                <input type="text" class="input_long" id="mobil" name="mobil" onkeypress="return onlyNumberKey(event)" onkeydown="return tabOnEnter(this, event)"/><br />
+                <label for="positionform">Position:</label><br>
+                <select class="select_long" name="positionform" id="positionform">
+                  <option value="position1">Position</option>
+                  <option value="keeper">Målvakt</option>
+                  <option value="defender">Försvarare</option>
+                  <option value="midfielder">Mittfältare</option>
+                  <option value="forward">Anfallare</option>
+                </select><br>
+                <label for="ansokan"
+                  >Meriter och varför du vill spela med oss:</label
+                ><br />
+                <textarea name="ansokan" id="ansokan" class="input_long" value onkeydown="returntabOnEnter(this,event)" rows="5" cols="21"></textarea><br />
+                <input type="submit" value="submit" />
+              </form>
+            </div>
             <br>
           </div>
           <script src="js/form.js"></script>

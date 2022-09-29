@@ -17,7 +17,7 @@
     <script src="js/form.js"></script>
     <script src="js/script.js"></script>
 
-    <title>Produkt</title>
+    <title>Shop</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -128,12 +128,12 @@
           </div>
           <div class="shopitem" id="matchballdiv">
             <a href="Matchstall.HTML" class="shoplink"
-                  ><img
-                    src="img/fotboll.jpg"
-                   alt="souvenirerochdiverse"
-                   id="matchball"
-                   class="imgforshop"
-                 />
+              ><img
+               src="img/fotboll.jpg"
+               alt="souvenirerochdiverse"
+               id="matchball"
+               class="imgforshop"
+              />
               <div class="iteminfo">
                 <h5 class="iteminfotext">Officiel matchboll</h5>
               </div>
@@ -142,7 +142,7 @@
           <div class="shopitem" id="copamundialdiv">
             <a href="Matchstall.HTML"
               ><img
-                src="img/copamundial.jpg"
+               src="img/copamundial.jpg"
                alt="souvenirerochdiverse"
                id="copamundial"
                class="imgforshop"
@@ -159,7 +159,7 @@
                alt="souvenirerochdiverse"
                id="joamsko1"
                class="imgforshop"
-             />
+              />
               <div class="iteminfo">
                <h5 class="iteminfotext">Supercopa Joma</h5>
               </div>
@@ -175,7 +175,7 @@
               />
               <div class="iteminfo">
                 <h5 class="iteminfotext">Supporter Halsduk</h5>
-             </div>
+              </div>
             </a>
           </div>
         </div>
@@ -199,15 +199,15 @@
           <div class="social-media col-md-4">
             <h5>SOCIALA MEDIER</h5>
             <div id="socialmedialogos">
-            <a href="https://www.instagram.com/realhpfootball/"
-              ><img
-                src="img/new-instagram-logo-glyph.svg"
-                alt="instagram"
-                style="height: 50px"
-            /></a>
-            <a href="https://www.facebook.com/realhpfootball"
-              ><img src="img/facebook-logo-svgrepo-com.svg" alt="facebook" style="height: 40px"
-            /></a>
+              <a href="https://www.instagram.com/realhpfootball/"
+                ><img
+                 src="img/new-instagram-logo-glyph.svg"
+                 alt="instagram"
+                 style="height: 50px"
+              /></a>
+              <a href="https://www.facebook.com/realhpfootball"
+                ><img src="img/facebook-logo-svgrepo-com.svg" alt="facebook" style="height: 40px"
+              /></a>
             </div>
             <br>
             <div id="fb-root"></div>
@@ -226,26 +226,27 @@
             <button class="showformbtn" onclick="showDiv();">Visa Formulär</button>
             <br><br>
             <div id="formula" style="display: none;">
-            <form name="spelaform" action="" method="post" onsubmit="return validateform()" >
-              <label for="namn">Namn:</label><br />
-              <input type="text" class="input_long" id="namn" name="namn" value onkeydown="returntabOnEnter(this,event)"/><br />
-              <label for="mobil">Mobilnummer:</label><br />
-              <input type="text" class="input_long" id="mobil" name="mobil" onkeypress="return onlyNumberKey(event)" onkeydown="return tabOnEnter(this, event)"/><br />
-              <label for="positionform">Position:</label><br>
-              <select class="select_long" name="positionform" id="positionform">
-                <option value="position1">Position</option>
-                <option value="keeper">Målvakt</option>
-                <option value="defender">Försvarare</option>
-                <option value="midfielder">Mittfältare</option>
-                <option value="forward">Anfallare</option>
-              </select><br>
-              <label for="ansokan"
-                >Meriter och varför du vill spela med oss:</label
-              ><br />
-              <textarea name="ansokan" id="ansokan" class="input_long" value onkeydown="returntabOnEnter(this,event)" rows="5" cols="21"></textarea><br />
-              <input type="submit" value="submit" />
-            </form>
-          </div>
+              <form name="spelaform" action="" method="post" onsubmit="return validateform()" >
+                <label for="namn">Namn:</label><br />
+                <input type="text" class="input_long" id="namn" name="namn" value onkeydown="returntabOnEnter(this,event)"/><br />
+                <label for="mobil">Mobilnummer:</label><br />
+                <input type="text" class="input_long" id="mobil" name="mobil" onkeypress="return onlyNumberKey(event)" onkeydown="return tabOnEnter(this, event)"/><br />
+                <label for="positionform">Position:</label><br>
+                <select class="select_long" name="positionform" id="positionform">
+                  <option value="position1">Position</option>
+                  <option value="keeper">Målvakt</option>
+                  <option value="defender">Försvarare</option>
+                  <option value="midfielder">Mittfältare</option>
+                  <option value="forward">Anfallare</option>
+                </select><br>
+                <label for="ansokan"
+                >Meriter och varför du vill spela med oss:
+                </label>
+                <br />
+                <textarea name="ansokan" id="ansokan" class="input_long" value onkeydown="returntabOnEnter(this,event)" rows="5" cols="21"></textarea><br />
+                <input type="submit" value="submit" />
+              </form>
+            </div>
             <br>
           </div>
           <script src="js/form.js"></script>
